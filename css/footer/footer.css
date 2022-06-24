@@ -1,0 +1,24 @@
+.footer {
+    background: #0E0C13;
+    max-height: 160px;
+    height: 160px;
+}
+.footer__container {
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+.footer__social {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 1.5em;
+    align-self: flex-end;
+    
+
+}
+.footer__copy {
+    text-transform: uppercase;
+    font-size: 14px;
+}
