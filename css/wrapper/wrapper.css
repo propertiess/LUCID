@@ -88,11 +88,17 @@
     }
     .footer__container {
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
+        padding-bottom: 20px;
     }
     .footer__social {
         align-self: center;
         
+    }
+    .footer__copy {
+        align-self: flex-start;
+    }
+    .footer {
+        height: 100px;
     }
    
 }
