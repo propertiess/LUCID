@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.title {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header {
+    max-width: 1440px;
+    max-height: 100px;
+
+
+}
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 100px;
+    height: 100px;
+    align-items: center;
+}
+.container {
+    margin: 0 135px 30px 135px;
+}
+.header__title, .header__title a {
+    cursor: pointer;
+    color: white;
+}
+
+.header__nav {
+   
+}
+.nav {
+}
+.nav__list {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 2em;
+
+}
+.list {
+}
+.nav__item {
+    
+}
+.link {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav__link:hover::after {
+    content: '\2063';
+    color: white;
+    width: 65px;
+    position: absolute;
+    display: flex;
+    top: -180%;
+    left: 0;
+    border-bottom: 2px solid #008FD9;
+    margin-top: 50px;
+    /* margin: 20px 47% 0 47%; */
+}
