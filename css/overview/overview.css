@@ -1,8 +1,7 @@
 .overview {
     max-height: 565px;
     height: 565px;
-    width: 100%;
-    
+    max-width: 1440px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.353);
 
 }
