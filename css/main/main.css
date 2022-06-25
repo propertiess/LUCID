@@ -41,6 +41,7 @@
 .description {
     color: #008FD9;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .main__button {
     /* border: 1px solid white; */

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="2" viewBox="0 0 42 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #008ed6;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Prostokąt_2_kopia_2" data-name="Prostokąt 2 kopia 2" class="cls-1" d="M735,1425h42v2H735v-2Zm22-20v42h-2v-42h2Z" transform="translate(-735 -1425)"/>
+</svg>

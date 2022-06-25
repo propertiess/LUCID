@@ -1,0 +1,83 @@
+.page {
+    max-height: 707px;
+    height: 707px;
+    max-width: 1440px;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+   
+    
+}
+.page__container {
+    height: 100%;
+    margin: 0 80px 30px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 6% 0;
+}
+
+.page__image {
+    background: url(../../src/page4/devices.png) 100% 50% no-repeat;
+    height: 100%;
+    background-size: contain;
+}
+.page__grid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 48%;
+}
+.page__description {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.page__title {
+    margin-bottom: 23px;
+    position: relative;
+}
+
+.page__text {
+    line-height: 1.2em;
+    margin-bottom: 15px;
+
+}
+
+
+.page__title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    /* background: #008FD9; */
+    /* border-style:; */
+    background: url(../../src/page4/border.svg) no-repeat;
+    top: 150%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.list {
+    line-height: 1.7em;
+    list-style: none;
+}
+.list__item  {
+    padding-left: 25px;
+}
+.list__item:first-child {
+    background: url(../../src/page4/Cup.svg) 0 4px no-repeat;
+
+}
+.list__item:nth-child(2){
+    background: url(../../src/page4/Mouse.svg) 2.5px 4px no-repeat;
+
+}
+.list__item:nth-child(3){
+    background: url(../../src/page4/Energy.svg) 2.5px 4px no-repeat;
+
+}
+.list__item:nth-child(4){
+    background: url(../../src/page4/Speedometer.svg) 0px 4px no-repeat;
+
+}

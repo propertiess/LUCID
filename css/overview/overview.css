@@ -2,8 +2,8 @@
     max-height: 565px;
     height: 565px;
     max-width: 1440px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.353);
-
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    border-bottom: 0;
 }
 .overview__description {
     margin-top: 65px;

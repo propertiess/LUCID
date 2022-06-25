@@ -11,12 +11,14 @@
 	<link rel="stylesheet" href="./css/main/main.css">
 	<link rel="stylesheet" href="./css/overview/overview.css">
 	<link rel="stylesheet" href="./css/footer/footer.css">
+	<link rel="stylesheet" href="./css/burger-menu/burger-menu.css">
+	<link rel="stylesheet" href="./css/page 4/page4.css">
 	<link rel="stylesheet" href="./css/wrapper/wrapper.css">
 
 </head>
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="header">
 			<div class="header__container container">
 
 				<div class="header__title title">
@@ -26,12 +28,12 @@
 				<nav class="header__nav nav">
 					
 					<ul class="nav__list list">
-						<li class="nav__item"><a href="" class="link nav__link">Home</a></li>
-						<li class="nav__item"><a href="" class="link nav__link">Features</a></li>
+						<li class="nav__item"><a href="#header" class="link nav__link">Home</a></li>
+						<li class="nav__item"><a href="#features" class="link nav__link">Features</a></li>
 						<li class="nav__item"><a href="" class="link nav__link">About</a></li>
 						<li class="nav__item"><a href="" class="link nav__link">Testimonials</a></li>
 						<li class="nav__item"><a href="" class="link nav__link">Pricing</a></li>
-						<li class="nav__item"><a href="" class="link nav__link">Contact</a></li>
+						<li class="nav__item"><a href="#footer" class="link nav__link">Contact</a></li>
 					</ul>
 					
 				</nav>
@@ -75,7 +77,7 @@
 				
 			</div>
 		</main>
-		<section class="overview">
+		<section class="overview" id="features">
 			<div class="overview__container container">
 				<div class="overview__description description">
 					PRODUCT OVERVIEW
@@ -130,7 +132,35 @@
 			</div>
 			
 		</section>
-		<footer class="footer">
+		<section class="page">
+			<div class="page__container container">
+				<div class="page__image">
+
+				</div>
+				<div class="page__grid">
+					<div class="page__description description">
+						dip into the details
+					</div>
+					<div class="page__title title">
+						Beautiful on every device
+						
+					</div>
+					<div class="page__text text">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, tenetur ut. Dolor, labore neque voluptatibus perspiciatis laudantium molestiae accusantium quisquam corporis veniam quos sunt amet illo natus obcaecati tenetur voluptate?
+					</div>
+					<div class="page__list list">
+						<li class="list__item">Awesome design</li>
+						<li class="list__item">Fully responsive</li>
+						<li class="list__item">Retina ready</li>
+						<li class="list__item">Tons of features and easy to use</li>
+					</div>
+				</div>
+				
+			</div>
+			
+
+		</section>
+		<footer class="footer" id="footer">
 			<div class="footer__container container">
 				<div class="footer__social">
 					<img src="./src/footer/behance.png" alt="behance" class="footer__img">
@@ -145,6 +175,20 @@
 			</div>
 			
 		</footer>
+		<div class="burger-menu">
+			<ul class="burger-menu__items">
+				<li class="burger-menu__item"><a href="#header" class="link burger-menu__link">Home</a></li>
+				<li class="burger-menu__item"><a href="#features" class="link burger-menu__link">Features</a></li>
+				<li class="burger-menu__item"><a href="" class="link burger-menu__link">About</a></li>
+				<li class="burger-menu__item"><a href="" class="link burger-menu__link">Testimonials</a></li>
+				<li class="burger-menu__item"><a href="" class="link burger-menu__link">Pricing</a></li>
+				<li class="burger-menu__item"><a href="#footer" class="link burger-menu__link">Contact</a></li>
+			</ul>
+		</div>
+		
 	</div>
+	
+
+	<script src="./script/header/burger.js"></script>
 </body>
 </html>

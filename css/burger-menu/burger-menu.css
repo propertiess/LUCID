@@ -1,0 +1,30 @@
+.burger-menu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0F0D15;
+    top: 0;
+    left: 0;
+    
+}
+.hidden-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.burger-menu__items {
+    margin-top: 8.5%;
+    display: grid;
+    justify-items: center;
+    row-gap: 1.1em;
+}
+.burger-menu__item {
+
+}
+
+.burger-menu__link {
+    font-size: 30px;
+
+}
+
