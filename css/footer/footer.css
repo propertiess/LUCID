@@ -15,10 +15,17 @@
     grid-template-columns: repeat(5,1fr);
     column-gap: 1.5em;
     align-self: flex-end;
-    
+    position: relative;
+    justify-items: center;
 
 }
 .footer__copy {
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
+}
+.footer__img {
+    position: relative;
+    height: 100%;
+
 }
