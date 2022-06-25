@@ -103,5 +103,8 @@
     .footer {
         height: 100px;
     }
+    .footer__img {
+        height: 70%;
+    }
    
 }
